@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FIX (original code): the manifest pointed at @style/Theme.Material3.DayNight,
+         which is a library theme name, not an app theme defined in the project.
+         Define the app theme explicitly so the build does not depend on that lookup. -->
+    <style name="Theme.SimpleCall" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>
