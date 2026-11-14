@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file must live in res/menu/ (your v2 tree only listed res/layout/,
+     but activity_main.xml references @menu/bottom_nav_menu). -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_contacts"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Contacts" />
+    <item android:id="@+id/nav_dialer"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="Dialer" />
+    <item android:id="@+id/nav_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="History" />
+</menu>
